@@ -78,7 +78,7 @@ o	The system should ensure accurate data storage, minimize downtime, and support
 
 
 Scope
-The system covers all essential restaurant operations, including user authentication, menu and category management, customer registration, table reservation, order processing, billing, payment recording, and sales reporting. It is designed with a modular architecture, allowing future enhancements such as online ordering, QR-code menus, kitchen display systems, food delivery, and customer loyalty programs.
+The system covers all essential restaurant operations, including user authentication, menu and category management, customer registration, table reservation, order processing, billing, payment recording, and sales reporting. It is designed with a modular architecture, `allowing future enhancements such as online ordering, QR-code menus, kitchen display systems, food delivery, and customer loyalty programs.`
 Expected Outcome
 The Restaurant Ordering System will reduce manual work, minimize order and billing errors, improve service speed, and enhance customer experience. It will provide a centralized platform for managing restaurant operations efficiently while giving students practical experience in full-stack web development, RESTful APIs, database design, authentication, and collaborative software development using the MERN Stack and GitHub.
 

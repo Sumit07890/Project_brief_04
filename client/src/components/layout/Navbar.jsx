@@ -1,18 +1,17 @@
+import { NavLink } from "react-router";
+
 function Navbar() {
-    return (
-        <nav className="navbar">
-
-            <h2>FoodHub</h2>
-
-            <div className="nav-links">
-                <span>Home</span>
-                <span>Menu</span>
-                <span>Orders</span>
-                <span>Profile</span>
-            </div>
-
-        </nav>
-    );
+  return (
+    <nav>
+      <NavLink to="/">Home</NavLink>
+      {" | "}
+      <NavLink to="/dashboard">Dashboard</NavLink>
+      {" | "}
+      <NavLink to="/profile">Profile</NavLink>
+      {" | "}
+      <NavLink to="/login">Login</NavLink>
+    </nav>
+  );
 }
 
 export default Navbar;

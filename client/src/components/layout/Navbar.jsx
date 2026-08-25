@@ -3,8 +3,10 @@ import { NavLink } from "react-router";
 function Navbar() {
   return (
     <nav>
-      <NavLink to="/">Home</NavLink>
-      {" | "}
+      
+     
+      <NavLink to="/home">Home</NavLink>
+       {" | "}
       <NavLink to="/dashboard">Dashboard</NavLink>
       {" | "}
       <NavLink to="/profile">Profile</NavLink>

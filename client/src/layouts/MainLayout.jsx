@@ -3,15 +3,19 @@ import Footer from "../components/layout/Footer";
 
 function MainLayout({ children }) {
   return (
-    <>
-      <Navbar />
+    <div className="app-layout">
+      <header>
+        <Navbar />
+      </header>
 
-      <main>
+      <main className="main-content">
         {children}
       </main>
 
-      <Footer />
-    </>
+      <footer>
+        <Footer />
+      </footer>
+    </div>
   );
 }
 

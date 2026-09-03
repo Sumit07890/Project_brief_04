@@ -1,18 +1,51 @@
+import Card from "../../components/ui/Card";
+import PageTitle from "../../components/ui/PageTitle";
+
 function Dashboard() {
-    return (
-        <section className="page">
+  return (
+    <>
+      <PageTitle
+        title="Dashboard"
+        subtitle="Manage your restaurant orders and activities"
+      />
 
-            <h1>Dashboard</h1>
+      <div className="card-grid">
+        <Card
+          title="Total Orders"
+          description="25 orders received"
+        />
 
-            <h2>Restaurant Dashboard</h2>
+        <Card
+          title="Today's Sales"
+          description="₹12,500 total sales"
+        />
 
-            <p>
-                Dashboard functionality will be implemented
-                in a later sprint.
-            </p>
-
-        </section>
-    );
+        <Card
+          title="Pending Orders"
+          description="5 orders awaiting preparation"
+        />
+      </div>
+    </>
+  );
 }
+<div className="card-grid">
+
+  <Card
+    title="Total Orders"
+    description="25 orders received"
+  />
+
+  <Card
+    title="Today's Sales"
+    description="₹12,500 total sales"
+  />
+
+  <Card
+    title="Pending Orders"
+    description="5 orders awaiting preparation"
+  />
+
+</div>
+
 
 export default Dashboard;

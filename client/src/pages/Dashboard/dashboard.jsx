@@ -28,24 +28,5 @@ function Dashboard() {
     </>
   );
 }
-<div className="card-grid">
-
-  <Card
-    title="Total Orders"
-    description="25 orders received"
-  />
-
-  <Card
-    title="Today's Sales"
-    description="₹12,500 total sales"
-  />
-
-  <Card
-    title="Pending Orders"
-    description="5 orders awaiting preparation"
-  />
-
-</div>
-
 
 export default Dashboard;

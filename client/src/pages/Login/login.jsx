@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Link } from "react-router";
-
+import Button from "../../components/ui/Button";
 
 function Login() {
   const [showPassword, setShowPassword] = useState(false);
@@ -100,9 +100,9 @@ function Login() {
               </button>
             </div>
 
-            <button type="submit" className="login-button">
-              Sign In
-            </button>
+           <Button type="submit">
+  Sign In
+</Button>
 
           </form>
 

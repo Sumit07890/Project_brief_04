@@ -64,3 +64,173 @@
   color: #6b7280;
   font-size: 16px;
 }
+/* Menu Item Form */
+
+/* =========================================
+   MENU ITEM PAGE
+   ========================================= */
+
+.menu-item-page {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0 50px;
+}
+
+.menu-item-page h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #151827;
+  margin-bottom: 8px;
+}
+
+.menu-item-page > p {
+  color: #6b7280;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* Form Card */
+
+.menu-item-page form {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 36px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+}
+
+/* Form Groups */
+
+.menu-item-page form > div {
+  margin-bottom: 22px;
+}
+
+.menu-item-page label {
+  display: block;
+  margin-bottom: 8px;
+  color: #151827;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* Inputs */
+
+.menu-item-page input,
+.menu-item-page textarea,
+.menu-item-page select {
+  width: 100%;
+  padding: 13px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 9px;
+  background: #ffffff;
+  color: #151827;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+
+.menu-item-page input::placeholder,
+.menu-item-page textarea::placeholder {
+  color: #9ca3af;
+}
+
+.menu-item-page textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Input Focus */
+
+.menu-item-page input:focus,
+.menu-item-page textarea:focus,
+.menu-item-page select:focus {
+  outline: none;
+  border-color: #151827;
+  box-shadow: 0 0 0 3px rgba(21, 24, 39, 0.08);
+}
+
+/* Validation Errors */
+
+.menu-item-page .error {
+  margin-top: 6px;
+  margin-bottom: 0;
+  color: #dc2626;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Buttons */
+
+.menu-item-page button {
+  min-height: 44px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 9px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.menu-item-page button[type="submit"] {
+  background: #151827;
+  color: #ffffff;
+}
+
+.menu-item-page button[type="submit"]:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 12px rgba(21, 24, 39, 0.2);
+}
+
+.menu-item-page button[type="button"] {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.menu-item-page button[type="button"]:hover {
+  background: #e5e7eb;
+}
+
+/* Button spacing */
+
+.menu-item-page form > button + button {
+  margin-left: 8px;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .menu-item-page {
+    padding: 10px 0 30px;
+  }
+
+  .menu-item-page h1 {
+    font-size: 28px;
+  }
+
+  .menu-item-page > p {
+    font-size: 14px;
+    margin-bottom: 22px;
+  }
+
+  .menu-item-page form {
+    padding: 22px;
+    border-radius: 12px;
+  }
+
+  .menu-item-page form > div {
+    margin-bottom: 18px;
+  }
+
+  .menu-item-page button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .menu-item-page form > button + button {
+    margin-left: 0;
+  }
+}

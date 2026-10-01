@@ -1,13 +1,7 @@
-const express = require("express");
-
-const app = express();
+const app = require("./app");
 
 const PORT = 5000;
 
-app.get("/", (req, res) => {
-    res.send("Restaurant Ordering System Backend is Running!");
-});
-
 app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`FoodHub backend server running on http://localhost:${PORT}`);
 });
